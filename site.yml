@@ -1,5 +1,5 @@
 ---
-- hosts: 166.100.1.30
+- hosts: testy
   become: true
   tasks:
     - name: Check OS
