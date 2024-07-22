@@ -3,5 +3,5 @@
   become: true
   tasks:
     - name: Check OS
-      ansible.builtin.package:
-        name: apache2
+      ansible.builtin.wait_for:
+        timeout: 5
