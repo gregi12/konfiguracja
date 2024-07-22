@@ -1,0 +1,7 @@
+---
+- hosts: testy
+  become: true
+  tasks:
+    - name: Check OS
+      ansible.builtin.package:
+        name: apache2
